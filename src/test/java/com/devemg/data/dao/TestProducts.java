@@ -19,7 +19,7 @@ import com.devemg.data.JDBC.ProductJDBC;
 import com.devemg.data.MysqlConnection;
 import com.devemg.data.entities.Product;
 
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 public class TestProducts {
 
     private Connection connection;

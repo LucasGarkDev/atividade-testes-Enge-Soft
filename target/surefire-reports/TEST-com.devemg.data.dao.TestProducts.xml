@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeInsercaoValida" time="0.001">
+  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeInsercaoValida" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
 	at com.devemg.data.dao.TestProducts.testeInsercaoValida(TestProducts.java:48)
 </failure>
@@ -72,7 +72,7 @@
 	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente(TestProducts.java:62)
 </failure>
   </testcase>
-  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente" time="0">
+  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente" time="0.001">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.select(int)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.select(int)&quot; because &quot;this.dao&quot; is null
 	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente(TestProducts.java:74)
 </failure>
