@@ -1,14 +1,14 @@
 package com.devemg;
 
-import com.devemg.data.JDBC.ProductJDBC;
-import com.devemg.data.MysqlConnection;
-import com.devemg.data.dao.ProductDAO;
-import com.devemg.data.entities.Product;
-
 import java.sql.SQLException;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
+
+import com.devemg.data.JDBC.ProductJDBC;
+import com.devemg.data.MysqlConnection;
+import com.devemg.data.dao.ProductDAO;
+import com.devemg.data.entities.Product;
 
 public class HandlerProducts {
     private final ProductDAO productJDBC;
