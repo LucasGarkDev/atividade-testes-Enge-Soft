@@ -19,7 +19,6 @@ import com.devemg.data.JDBC.ProductJDBC;
 import com.devemg.data.MysqlConnection;
 import com.devemg.data.entities.Product;
 
-
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TestProducts {
 
@@ -29,7 +28,7 @@ public class TestProducts {
     @BeforeEach
     public void setup() throws SQLException {
         connection = MysqlConnection.getConnection();
-        dao = new ProductJDBC(connection);  // <- aqui o DAO passa a existir
+        dao = new ProductJDBC(connection);
 
         try (PreparedStatement stmt = connection.prepareStatement("DELETE FROM product")) {
             stmt.execute();
@@ -40,13 +39,6 @@ public class TestProducts {
     public void fecharConexao() throws SQLException {
         if (connection != null && !connection.isClosed()) {
             connection.close();
-        }
-    }
-
-    @BeforeEach
-    public void limparTabela() throws SQLException {
-        try (PreparedStatement stmt = connection.prepareStatement("DELETE FROM product")) {
-            stmt.execute();
         }
     }
 
@@ -61,7 +53,7 @@ public class TestProducts {
     public void testeInsercaoNomeNulo() throws SQLException {
         Product p = new Product(null, 10.5, 20, "Sem nome");
         int resultado = dao.insert(p);
-        assertEquals(0, resultado); // ou lance exceção, se for esperado
+        assertEquals(0, resultado); // ou verifique se lança exceção, se for esperado
     }
 
     @Test

@@ -1,40 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: com.devemg.data.dao.TestProducts
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
+Tests run: 10, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE!
 com.devemg.data.dao.TestProducts.testeInsercaoValida()  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeInsercaoValida(TestProducts.java:56)
+	at com.devemg.data.dao.TestProducts.testeInsercaoValida(TestProducts.java:48)
 
 com.devemg.data.dao.TestProducts.testeInsercaoNomeNulo()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeInsercaoNomeNulo(TestProducts.java:63)
+	at com.devemg.data.dao.TestProducts.testeInsercaoNomeNulo(TestProducts.java:55)
 
-com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente()  Time elapsed: 0.001 sec  <<< FAILURE!
+com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente(TestProducts.java:70)
+	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente(TestProducts.java:62)
 
 com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.select(int)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente(TestProducts.java:82)
+	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente(TestProducts.java:74)
 
 com.devemg.data.dao.TestProducts.testeAtualizacaoValida()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeAtualizacaoValida(TestProducts.java:89)
+	at com.devemg.data.dao.TestProducts.testeAtualizacaoValida(TestProducts.java:81)
 
 com.devemg.data.dao.TestProducts.testeAtualizacaoProdutoInexistente()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.update(com.devemg.data.entities.Product)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeAtualizacaoProdutoInexistente(TestProducts.java:103)
+	at com.devemg.data.dao.TestProducts.testeAtualizacaoProdutoInexistente(TestProducts.java:95)
 
 com.devemg.data.dao.TestProducts.testeRemocaoProdutoExistente()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoExistente(TestProducts.java:110)
+	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoExistente(TestProducts.java:102)
 
 com.devemg.data.dao.TestProducts.testeRemocaoProdutoInexistente()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.delete(int)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoInexistente(TestProducts.java:121)
+	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoInexistente(TestProducts.java:113)
 
 com.devemg.data.dao.TestProducts.testeListagemProdutos()  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)" because "this.dao" is null
-	at com.devemg.data.dao.TestProducts.testeListagemProdutos(TestProducts.java:127)
+	at com.devemg.data.dao.TestProducts.testeListagemProdutos(TestProducts.java:119)
 

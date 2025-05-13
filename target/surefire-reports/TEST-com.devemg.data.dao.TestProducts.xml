@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="9" name="com.devemg.data.dao.TestProducts" time="0.011" errors="0" skipped="0">
+<testsuite tests="10" failures="9" name="com.devemg.data.dao.TestProducts" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.7+6-Ubuntu-0ubuntu122.04"/>
@@ -59,48 +59,48 @@
   </properties>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeInsercaoValida" time="0.001">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeInsercaoValida(TestProducts.java:56)
+	at com.devemg.data.dao.TestProducts.testeInsercaoValida(TestProducts.java:48)
 </failure>
   </testcase>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeInsercaoNomeNulo" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeInsercaoNomeNulo(TestProducts.java:63)
+	at com.devemg.data.dao.TestProducts.testeInsercaoNomeNulo(TestProducts.java:55)
 </failure>
   </testcase>
-  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente" time="0.001">
+  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente(TestProducts.java:70)
+	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoExistente(TestProducts.java:62)
 </failure>
   </testcase>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.select(int)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.select(int)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente(TestProducts.java:82)
+	at com.devemg.data.dao.TestProducts.testeSelecaoProdutoInexistente(TestProducts.java:74)
 </failure>
   </testcase>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeAtualizacaoValida" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeAtualizacaoValida(TestProducts.java:89)
+	at com.devemg.data.dao.TestProducts.testeAtualizacaoValida(TestProducts.java:81)
 </failure>
   </testcase>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeAtualizacaoProdutoInexistente" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.update(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.update(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeAtualizacaoProdutoInexistente(TestProducts.java:103)
+	at com.devemg.data.dao.TestProducts.testeAtualizacaoProdutoInexistente(TestProducts.java:95)
 </failure>
   </testcase>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeRemocaoProdutoExistente" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoExistente(TestProducts.java:110)
+	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoExistente(TestProducts.java:102)
 </failure>
   </testcase>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeRemocaoProdutoInexistente" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.delete(int)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.delete(int)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoInexistente(TestProducts.java:121)
+	at com.devemg.data.dao.TestProducts.testeRemocaoProdutoInexistente(TestProducts.java:113)
 </failure>
   </testcase>
   <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeListagemProdutos" time="0">
     <failure message="Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)&quot; because &quot;this.dao&quot; is null
-	at com.devemg.data.dao.TestProducts.testeListagemProdutos(TestProducts.java:127)
+	at com.devemg.data.dao.TestProducts.testeListagemProdutos(TestProducts.java:119)
 </failure>
   </testcase>
-  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeToStringProduto" time="0.009"/>
+  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeToStringProduto" time="0.011"/>
 </testsuite>
