@@ -1,0 +1,6 @@
+com/devemg/data/JDBC/ProductJDBC.class
+com/devemg/data/MysqlConnection.class
+com/devemg/data/dao/ProductDAO.class
+com/devemg/data/entities/Product.class
+com/devemg/HandlerProducts.class
+com/devemg/Main.class
