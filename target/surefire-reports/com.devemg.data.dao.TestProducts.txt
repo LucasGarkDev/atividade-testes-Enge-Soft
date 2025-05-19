@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.devemg.data.dao.TestProducts
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec <<< FAILURE!
+Tests run: 10, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
 com.devemg.data.dao.TestProducts.testeInsercaoValida()  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.devemg.data.dao.ProductDAO.insert(com.devemg.data.entities.Product)" because "this.dao" is null
 	at com.devemg.data.dao.TestProducts.testeInsercaoValida(TestProducts.java:49)

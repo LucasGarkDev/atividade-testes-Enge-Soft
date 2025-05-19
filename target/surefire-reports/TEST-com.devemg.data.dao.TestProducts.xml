@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="9" name="com.devemg.data.dao.TestProducts" time="0.02" errors="0" skipped="0">
+<testsuite tests="10" failures="9" name="com.devemg.data.dao.TestProducts" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.7+6-Ubuntu-0ubuntu122.04"/>
@@ -120,5 +120,5 @@
     <system-out>🔍 Executando: testeListagemProdutos
 </system-out>
   </testcase>
-  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeToStringProduto" time="0.017"/>
+  <testcase classname="com.devemg.data.dao.TestProducts" name="com.devemg.data.dao.TestProducts.testeToStringProduto" time="0.009"/>
 </testsuite>
